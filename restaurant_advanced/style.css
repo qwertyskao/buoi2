@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main: #000000;
+    --dark: #0a0909f6;
+    --light: #ffffff;
+    --shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(135deg, var(--main), #6a6b55);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+/* MENU */
+.menu {
+    position: sticky;
+    top: 0;
+    background: var(--dark);
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.menu a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: var(--main);
+    color: black;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 40px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: var(--main);
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15), 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* FOOD */
+.food-list {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+.food-card {
+    position: relative;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15), 0 4px 10px rgba(0,0,0,0.08);
+    flex: 1;
+    transition: 0.3s;
+}
+
+.food-card:hover {
+    transform: translateY(-10px);
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    padding: 5px;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.food-card:hover .overlay {
+    opacity: 1;
+}
+
+/* TABLE */
+
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15), 0 4px 10px rgba(0,0,0,0.08);
+}
+
+th {
+    background: var(--main);
+    color: white;
+}
+
+td, th {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+tr:hover {
+    background: #f5f5f5;
+}
+
+/* REVIEW */
+.review-list {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.review-card {
+    background: white;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15), 0 4px 10px rgba(0,0,0,0.08);
+    border-radius: 10px;
+}
+
+/* BOOKING */
+.card-booking{
+    background: rgba(235, 234, 234, 0.829);
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15), 0 4px 10px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.booking-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    width: 70%;
+    margin: auto;
+}
+
+.booking-form textarea{
+    grid-column: span 2;
+}
+.booking-form button {
+    grid-column: span 2;
+    font-size: 20px;
+    height: 39px;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 20px;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid var(--main);
+}
+
+/* FOOTER */
+.footer {
+    background: var(--dark);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* ADD Them */
+.section-title {
+    border-left: 5px solid var(--main);
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1{
+    font-size: 39px;
+}
+
+p{
+    font-size: 21px;
+}

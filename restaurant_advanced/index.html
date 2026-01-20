@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: radial-gradient(circle, rgb(255, 255, 255));">
+    <!-- HEADER -->
+        <header class="header">
+            <h1>KING of CHEFSs</h1>
+            <p>Hương vị tinh hoa – Trải nghiệm đỉnh cao</p>
+        </header>
+
+    <!-- MENU -->
+        <nav class="menu">
+            <a href="#hero">Trang chủ</a>
+            <a href="#foods">Thực đơn</a>
+            <a href="#combo">Ưu đãi</a>
+            <a href="#booking">Đặt bàn</a>
+        </nav>
+
+    <!-- HERO -->
+        <section id="hero" class="hero">
+            <h1>Ẩm Thực Việt Đẳng Cấp</h1>
+            <p>Nguyên liệu tươi – Đầu bếp chuyên nghiệp</p>
+            <a href="#booking" class="btn">Đặt bàn ngay</a>
+        </section>
+
+    <!-- MÓN ĂN NỔI BẬT -->
+     <div class="container">
+        <section id="foods" class="foods">
+            <h2 class="section-title">Món Ăn Nổi Bật</h2>
+
+            <div class="food-list">
+                <div class="food-card best">
+                    <span class="badge">Best Seller</span>
+                    <h3>Bò lúc lắc</h3>
+                    <p>Thịt bò mềm, sốt đậm đà</p>
+                    <strong>120.000đ</strong>
+                    <div class="overlay">Xem chi tiết</div>
+                </div>
+
+                <div class="food-card">
+                    <h3>Cá hồi nướng</h3>
+                    <p>Sốt bơ tỏi thơm béo</p>
+                    <strong>180.000đ</strong>
+                    <div class="overlay">Xem chi tiết</div>
+                </div>
+
+                <div class="food-card">
+                    <h3>Mì Ý sốt kem</h3>
+                    <p>Vị béo nhẹ, dễ ăn</p>
+                    <strong>95.000đ</strong>
+                    <div class="overlay">Xem chi tiết</div>
+                </div>
+
+                <div class="food-card">
+                    <h3>Lòng Heo Hà Tĩnh</h3>
+                    <p>Luộc hấp</p>
+                    <strong>190.000đ</strong>
+                    <div class="overlay">Xem chi tiết</div>
+                </div>
+
+                <div class="food-card">
+                    <h3>Tôm hùm bông</h3>
+                    <p>Sốt me thơm béo</p>
+                    <strong>1.080.000đ</strong>
+                    <div class="overlay">Xem chi tiết</div>
+                </div>
+
+            </div>
+        </section>
+
+    <!-- BẢNG COMBO -->
+        <section id="combo" class="combo">
+            <h2 class="section-title">Combo Ưu Đãi</h2><br>
+            <table>
+                <tr>
+                    <th>Tên combo</th>
+                    <th>Món chính</th>
+                    <th>Giá</th>
+                </tr>
+                <tr>
+                    <td>Combo 1</td>
+                    <td>Bò lúc lắc</td>
+                    <td>199.000đ</td>
+                </tr>
+                <tr>
+                    <td>Combo 2</td>
+                    <td>Cá hồi nướng</td>
+                    <td>259.000đ</td>
+                </tr>
+                <tr>
+                    <td>Combo 3</td>
+                    <td>Lẩu cá đuối</td>
+                    <td>245.000đ</td>
+                </tr>
+                <tr>
+                    <td>Combo 4</td>
+                    <td>Tôm hùm</td>
+                    <td>369.000đ</td>
+                </tr>
+                <tr>
+                    <td>Combo 5</td>
+                    <td>Bò Mỹ</td>
+                    <td>200.000đ</td>
+                </tr>
+            </table>
+            <br>
+        </section><br>
+
+    <!-- ĐÁNH GIÁ -->
+        <section class="reviews">
+            <h2 class="section-title">Đánh giá của khách hàng</h2>
+
+            <div class="review-list">
+                <div class="review-card">
+                    <h4>Nguyễn Văn A</h4>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>Món ăn rất ngon, phục vụ tốt</p>
+                </div>
+
+                <div class="review-card">
+                    <h4>Trần Thị B</h4>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>Không gian đẹp, sẽ quay lại</p>
+                </div>
+
+                <div class="review-card">
+                    <h4>Lê Hoàng A</h4>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>Ngon nhất món Bò Mỹ</p>
+                </div>
+
+                <div class="review-card">
+                    <h4>Đoàn Di C</h4>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>Phục vụ tận tình, rất có tâm</p>
+                </div>
+            </div>
+        </section><br>
+
+    <!-- FORM ĐẶT BÀN -->
+        <section id="booking" class="booking">
+            <h2 class="section-title">Đặt Bàn</h2><br>
+            <div class="card-booking">
+                <form class="booking-form">
+                    <input type="text" placeholder="Họ và tên">
+                    <input type="tel" placeholder="Số điện thoại">
+                    <input type="date">
+                    <input type="number" placeholder="Số người">
+                    <textarea placeholder="Ghi chú"></textarea>
+                    <button>Gửi đặt bàn</button>
+                </form>
+            </div><br>
+        </section>
+
+    </div>
+    <!-- FOOTER -->
+        <footer class="footer">
+            <p>📍 123 Nguyễn Văn Linh, TP.HCM</p>
+            <p>📞 Hotline: 0909 999 999</p>
+            <p>⏰ 08:00 – 22:00</p>
+            <a href="#top">⬆ Về đầu trang</a>
+        </footer>
+</body>
+</html>

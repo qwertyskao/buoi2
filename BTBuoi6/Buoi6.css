@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #4CAF50;
+    text-align: center;
+}
+
+.menu{
+    background-color: #333;
+    text-align: center;
+}
+
+.main{
+    width: 100%;
+    float: left;
+}
+
+.leftsidebar{
+    background-color: #e44444;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.content{
+    width: 75%;
+    background-color: aqua;
+    float: right;
+    text-align: center;
+}
+
+.footer{
+    background-color: #6652ad;
+    text-align: center;
+}

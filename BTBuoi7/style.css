@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu{
+    background-color: #ffffff;
+    color: #2563eb;
+    padding: 10px;
+    list-style: none;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu a{
+      text-decoration: none;
+}
+
+.menu-box{
+    background: #fff;
+    padding: 1px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.container{
+    width:1100px;
+    margin:auto;
+}
+
+.card-wrapper{
+    font-size: 15px;
+    text-align: left;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    gap: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.card{
+    border-radius: 12px;
+    background: #fff;
+    border: 2px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+}
+
+.card .price{
+    color: #2563eb;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th{
+    background-color: #2563eb;
+    color: white;
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+td{
+    text-align: left;
+    padding: 2px;
+}
+
+tr:hover{
+    background-color: #2563eb;
+}
+
+.form input:focus{
+    outline :none;
+    
+}
+
+.containerxx {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.consult-box{
+    background: #fff;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.consult-box h3{
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.consult-box input,
+.consult-box textarea {
+  width: 96%;
+  padding: 10px 11px;
+  margin-bottom: 12px;
+
+  border: 1px solid #ddd;
+  border-radius: 6px;
+
+  font-size: 14px;
+  outline: none;
+}
+
+.consult-box input:focus,
+.consult-box select:focus,
+.consult-box textarea:focus {
+  border-color: #2563eb;
+}
+
+.consult-box select {
+    width: 98%;
+    padding: 10px 11px;
+    margin-bottom: 12px;
+
+    border: 1px solid #ddd;
+    border-radius: 6px;
+
+    font-size: 14px;
+    outline: none;
+}
+
+.consult-box textarea {
+  resize: none;
+  height: 80px;
+}
+
+
+.consult-box button {
+  width: 100%;
+  padding: 12px;
+
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.consult-box button:hover {
+  opacity: 0.9;
+}
+
+
+.footer{
+    background : #000000;
+    color: white;
+    text-align: center;
+    padding: 21px;
+    width: 100%;
+}
